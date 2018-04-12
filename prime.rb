@@ -12,9 +12,9 @@ def prime?(num)
     end
     
     if factors.length > 2
-      true
-    else
       false
+    else
+      true
     end
     
   end
