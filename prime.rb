@@ -6,7 +6,7 @@ def prime?(num)
     factors = []
     arr_num = (1..4).to_a
     factors << arr_num.each do |n|
-      if num % n == 0
+      if 4 % n == 0
         n
       end
     end
