@@ -4,9 +4,9 @@ def prime?(num)
     false
   else
     factors = []
-    arr_num = (1..4).to_a
+    arr_num = (1..num).to_a
     arr_num.each do |n|
-      if 4 % n == 0
+      if num % n == 0
         factors << n
       end
     end
