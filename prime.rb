@@ -10,5 +10,12 @@ def prime?(num)
         n
       end
     end
+    
+    if factors.length > 2
+      true
+    else
+      false
+    end
+    
   end
 end
